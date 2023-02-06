@@ -9,8 +9,12 @@ function mindGame(num) {
 }
 // console.log(mindGame(50));
 
-// 2nd problem
+//  Dectription 1:
+//  The function "mindGame" takes a positive number as input and returns the calculation (num * 3 + 10) / 2 - 5. If the input is not a positive number, the function returns "Input must be a positive number.
 
+
+
+// 2nd problem
 
 function evenOdd(str) {
   if (typeof str !== "string") {
@@ -23,6 +27,8 @@ function evenOdd(str) {
 }
 // console.log(evenOdd("hero"));
 // console.log(evenOdd(123));
+
+//  Dectription 2:
 
 // 3rd problem
 
@@ -41,6 +47,8 @@ function isLGSeven(num) {
 // console.log(isLGSeven(-15));
 // console.log(isLGSeven("seven")); 
 
+//  Dectription 3:
+
 // 4th problem
 
 function findingBadData(arr) {
@@ -58,6 +66,8 @@ function findingBadData(arr) {
 // console.log(findingBadData([-1, 2, 3, -4, 5])); 
 // console.log(findingBadData([ 2, -5, -7, -13 ]));
 
+//  Dectription 4:
+
 // 5th problem
 
 function gemsToDiamond(gems1, gems2, gems3) {
@@ -71,6 +81,7 @@ function gemsToDiamond(gems1, gems2, gems3) {
   return totalDiamond;
 }
 // console.log(gemsToDiamond(1, 1, 1));
-// console.log(gemsToDiamond(20, 200, 50));
 // console.log(gemsToDiamond(100, 5, -100));
-// console.log(gemsToDiamond(0, 0, 0 ));
+
+//  Dectription 5:
+
