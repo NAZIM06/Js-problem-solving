@@ -9,7 +9,7 @@ function mindGame(num) {
 }
 // console.log(mindGame(33));
 
-//  Dectription 1:
+//Description 1:
 //  The function "mindGame" takes a positive number as input and returns the calculation (num * 3 + 10) / 2 - 5. If the input is not a positive number, the function returns "Input must be a positive number.
 
 
@@ -27,12 +27,11 @@ function evenOdd(str) {
 }
 
 // console.log(evenOdd("hero"));
-// console.log(evenOdd(123));
 
-//  Dectription 2:This code defines a JavaScript function called "evenOdd" that takes a string as input and returns "even" or "odd" depending on the length of the string.If the input is not a string, the function returns Invalid Input.
+//Description 2:
+// This code defines a JavaScript function called "evenOdd" that takes a string as input and returns "even" or "odd" depending on the length of the string.If the input is not a string, the function returns Invalid Input.
 
 // 3rd problem
-
 
 function isLGSeven(num) {
   if (typeof num !== 'number') {
@@ -43,17 +42,17 @@ function isLGSeven(num) {
   return num * 2;
   }
   }
-// console.log(isLGSeven(-15));
-// console.log(isLGSeven("seven")); 
+// console.log(isLGSeven(-15)); 
 
-//  Dectription 3: This code is a function called "isLGSeven" that takes in a number as input. If the input is not a number, it returns an error message. If the input is less than 7, it subtracts 7 from the number, otherwise it multiplies the number by 2.
+//Description 3: 
+// This code is a function called "isLGSeven" that takes in a number as input. If the input is not a number, it returns an error message. If the input is less than 7, it subtracts 7 from the number, otherwise it multiplies the number by 2.
 
 // 4th problem
 
 function findingBadData(arr) {
   let badDataCount = 0;
   for (let i = 0; i < arr.length; i++) {
-    if (typeof arr[i] !== "number") {
+    if (typeof arr[i] !== "number" && !Array.isArray(arr)) {
       return "Input must contain only numbers";
     }
     else if (arr[i] < 0) {
@@ -62,10 +61,10 @@ function findingBadData(arr) {
   }
   return badDataCount;
 }
-// console.log(findingBadData([-1, 2, 3, -4, 5])); 
-// console.log(findingBadData([ 2, -5, -7, -13 ]));
+// console.log(findingBadData([ 2, -5, -7, -13 ])); 
 
-//  Dectription 4: This function check bad data in an array,if any element is not a number it returns error. If all elements are numbers and numbers are less than 0 it counts as bad data and returns the number of elements.
+//Description 4: 
+//This function check bad data in an array,if any element is not a number it returns error. If all elements are numbers and numbers are less than 0 it counts as bad data and returns the number of elements.
 
 // 5th problem
 
@@ -80,9 +79,7 @@ function gemsToDiamond(gems1, gems2, gems3) {
   return totalDiamond;
 }
 // console.log(gemsToDiamond(1, "1", 1));
-// console.log(gemsToDiamond(100, 5, -100));
-// console.log(gemsToDiamond(20, 200, 50));
-// console.log(gemsToDiamond(100,5,1));
 
-//  Dectription 5: The gemsToDiamond function takes in three numbers as input, converts them into diamonds, calculates the total number of diamonds, and returns the final number after subtracting 2000 if the total exceeds 2000.
+//Description 5: 
+//The gemsToDiamond function takes in three numbers as input, converts them into diamonds, calculates the total number of diamonds, and returns the final number after subtracting 2000 if the total exceeds 2000.
 
